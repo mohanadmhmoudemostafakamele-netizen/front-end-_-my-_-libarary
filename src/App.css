@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+/* تنظيف إعدادات Vite الافتراضية اللي بتبوظ الشاشة */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #070510;
+  color: #f8fafc;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+#root {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+  display: block !important;
+}
